@@ -6,7 +6,7 @@ export default function Main() {
       <section className="relative">
         <h1 className="text-brand lg:text-8xl lg:mt-[-48px] lg:ml-[-151.055px] text-9xl absolute top-1/2 left-1/2 ml-[-201.415px] mt-[-64px]">Ableton</h1>
         <Image
-          src='/../public/assets/header.jpg'
+          src='/assets/header.jpg'
           alt='Intro Image'
           width={1720}
           height={960}
