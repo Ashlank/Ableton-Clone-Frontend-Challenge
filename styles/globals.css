@@ -1,26 +1,59 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url("https://fonts.cdnfonts.com/css/futura-pt");
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: 'Futura PT', sans-serif;
+  font-weight: 450;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+body {
+  margin: auto;
+  background-color: #F3F3F3;
+}
+
+#primary-menu a, p{
+  font-weight: 450;
+}
+
+.mid-section a {
+  color: blue;
+  font-weight: 500;
+}
+
+.footer *{
+  font-weight: normal;
+}
+
+.footer button {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.bold-select * {
+  font-weight: 500;
+  font-size: .85rem;
+}
+
+.bold-footer *{
+  font-weight: 500;
+}
+
+.small-footer {
+  font-size: .85rem;
+}
+
+.first a::after, .second a::after {
+  content: '>';
+  font-size: .8rem;
+  margin-left: 5px;
+  font-weight: 500;
 }
